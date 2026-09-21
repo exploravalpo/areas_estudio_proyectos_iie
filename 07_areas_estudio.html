@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Áreas de estudio</title>
+<style>
+:root{
+ --background:#0EFFF0;
+ --text:#082F33;
+ --accent-1:#2F28FF;
+ --accent-2:#00A9A5;
+ --accent-3:#F26A5A;
+ --white:#FFFFFF;
+ --line:rgba(8,47,51,.18);
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--background);color:var(--text);font-family:Arial,Helvetica,sans-serif}
+body{line-height:1.5}
+.shell{max-width:1100px;margin:0 auto;padding:54px 34px 64px}
+.eyebrow{font-size:12px;text-transform:uppercase;letter-spacing:.14em;font-weight:800;margin-bottom:10px}
+h1{font-size:clamp(34px,5.2vw,64px);line-height:1;letter-spacing:-.045em;margin:0 0 18px}
+.lead{font-size:18px;max-width:820px;margin:0 0 28px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:24px 0}
+.card{background:var(--white);border:1px solid rgba(8,47,51,.12);border-radius:20px;padding:20px;box-shadow:0 10px 26px rgba(8,47,51,.07)}
+.card h3{margin:0 0 14px;font-size:20px}
+.big{font-size:44px;font-weight:850;line-height:1;letter-spacing:-.05em}
+.label{font-size:13px;opacity:.72;margin-top:5px}
+.chart{display:grid;gap:10px}
+.row{display:grid;grid-template-columns:minmax(150px,1.25fr) 3fr 44px;gap:10px;align-items:center;font-size:14px}
+.track{height:14px;background:rgba(8,47,51,.12);border-radius:999px;overflow:hidden}
+.fill{height:100%;background:var(--accent-1);border-radius:999px}
+.fill.a2{background:var(--accent-2)} .fill.a3{background:var(--accent-3)}
+.stack{display:flex;height:30px;border-radius:999px;overflow:hidden;background:rgba(8,47,51,.10);margin:12px 0}
+.stack div{display:flex;align-items:center;justify-content:center;color:#fff;font-size:12px;font-weight:800}
+.stack .one{background:var(--accent-1)} .stack .two{background:var(--accent-3)}
+.note{background:var(--white);border-left:5px solid var(--accent-3);border-radius:12px;padding:15px 17px;margin:18px 0}
+.callout{background:var(--accent-1);color:#fff;border-radius:18px;padding:19px 21px;margin-top:18px}
+.callout b{font-size:22px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:9px 8px;border-bottom:1px solid rgba(8,47,51,.12);text-align:left;font-size:13px}
+.table th{text-transform:uppercase;letter-spacing:.06em;font-size:11px}
+.sep{height:12px;margin:42px auto 0;max-width:300px;background:repeating-linear-gradient(90deg,var(--accent-2) 0 22px,var(--white) 22px 44px);border-radius:999px}
+.footer{font-size:12px;opacity:.72;margin-top:32px}
+@media(max-width:760px){.cards,.two{grid-template-columns:1fr}.shell{padding:38px 20px 48px}.row{grid-template-columns:120px 1fr 36px}}
+</style>
+</head>
+<body>
+<div class="shell">
+<div class="eyebrow">Temáticas abordadas</div>
+<h1>Áreas de estudio</h1>
+<p class="lead">Las áreas de estudio permiten observar con mayor detalle los temas trabajados por los equipos escolares, complementando la clasificación disciplinar.</p>
+<div class="note"><b>Calidad del dato:</b> en 2025 existen 50 registros sin área de estudio informada. Se mantienen visibles para no ocultar esa falta de información.</div><div class="cards"><div class="card"><h3>2023</h3><div class="chart"><div class="row"><div>Medioambiente</div><div class="track"><div class="fill a3" style="width:100.0%"></div></div><b>78</b></div><div class="row"><div>Biología</div><div class="track"><div class="fill a3" style="width:29.5%"></div></div><b>23</b></div><div class="row"><div>Psicología</div><div class="track"><div class="fill a3" style="width:25.6%"></div></div><b>20</b></div><div class="row"><div>Salud y bienestar</div><div class="track"><div class="fill a3" style="width:11.5%"></div></div><b>9</b></div><div class="row"><div>Astronomía</div><div class="track"><div class="fill a3" style="width:6.4%"></div></div><b>5</b></div><div class="row"><div>Historia</div><div class="track"><div class="fill a3" style="width:3.8%"></div></div><b>3</b></div><div class="row"><div>Artes</div><div class="track"><div class="fill a3" style="width:3.8%"></div></div><b>3</b></div><div class="row"><div>Química</div><div class="track"><div class="fill a3" style="width:2.6%"></div></div><b>2</b></div><div class="row"><div>Tecnología</div><div class="track"><div class="fill a3" style="width:2.6%"></div></div><b>2</b></div><div class="row"><div>Física</div><div class="track"><div class="fill a3" style="width:1.3%"></div></div><b>1</b></div></div></div><div class="card"><h3>2024</h3><div class="chart"><div class="row"><div>Medioambiente</div><div class="track"><div class="fill a3" style="width:100.0%"></div></div><b>109</b></div><div class="row"><div>Biología</div><div class="track"><div class="fill a3" style="width:25.7%"></div></div><b>28</b></div><div class="row"><div>Psicología</div><div class="track"><div class="fill a3" style="width:22.9%"></div></div><b>25</b></div><div class="row"><div>Salud y bienestar</div><div class="track"><div class="fill a3" style="width:14.7%"></div></div><b>16</b></div><div class="row"><div>Historia</div><div class="track"><div class="fill a3" style="width:9.2%"></div></div><b>10</b></div><div class="row"><div>Tecnología</div><div class="track"><div class="fill a3" style="width:5.5%"></div></div><b>6</b></div><div class="row"><div>Química</div><div class="track"><div class="fill a3" style="width:4.6%"></div></div><b>5</b></div><div class="row"><div>Física</div><div class="track"><div class="fill a3" style="width:3.7%"></div></div><b>4</b></div><div class="row"><div>Astronomía</div><div class="track"><div class="fill a3" style="width:2.8%"></div></div><b>3</b></div><div class="row"><div>Artes</div><div class="track"><div class="fill a3" style="width:0.9%"></div></div><b>1</b></div></div></div><div class="card"><h3>2025</h3><div class="chart"><div class="row"><div>Medioambiente</div><div class="track"><div class="fill a3" style="width:100.0%"></div></div><b>65</b></div><div class="row"><div>Sin información</div><div class="track"><div class="fill a3" style="width:76.9%"></div></div><b>50</b></div><div class="row"><div>Biología</div><div class="track"><div class="fill a3" style="width:38.5%"></div></div><b>25</b></div><div class="row"><div>Química</div><div class="track"><div class="fill a3" style="width:15.4%"></div></div><b>10</b></div><div class="row"><div>Psicología</div><div class="track"><div class="fill a3" style="width:12.3%"></div></div><b>8</b></div><div class="row"><div>Salud y bienestar</div><div class="track"><div class="fill a3" style="width:12.3%"></div></div><b>8</b></div><div class="row"><div>Historia</div><div class="track"><div class="fill a3" style="width:3.1%"></div></div><b>2</b></div><div class="row"><div>Física</div><div class="track"><div class="fill a3" style="width:3.1%"></div></div><b>2</b></div><div class="row"><div>Artes</div><div class="track"><div class="fill a3" style="width:3.1%"></div></div><b>2</b></div><div class="row"><div>Astronomía</div><div class="track"><div class="fill a3" style="width:1.5%"></div></div><b>1</b></div></div></div></div>
+<div class="sep"></div>
+<div class="footer">Fuente: Proyectos IIE 2023–2025, Programa Explora Región de Valparaíso.</div>
+</div>
+</body></html>
